@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ccsub": {
+      "npm": "@ai-sdk/anthropic",
+      "name": "CCSub",
+      "options": {
+        "baseURL": "https://www.ccsub.net/api/v1",
+        "apiKey": "{env:CCSUB_API_KEY}"
+      },
+      "models": {
+        "claude-sonnet-5": { "name": "claude-sonnet-5" }
+      }
+    }
+  },
+  "model": "ccsub/claude-sonnet-5"
+}

@@ -1,0 +1,10 @@
+# 放在 ~/.codex/config.toml（Windows：%USERPROFILE%\.codex\config.toml），项目目录里的 config.toml 不能配置 provider
+# Key 放在环境变量 OPENAI_API_KEY 里
+model = "gpt-5.5"
+model_provider = "ccsub"
+
+[model_providers.ccsub]
+name = "CCSub"
+base_url = "https://www.ccsub.net/api/v1"
+wire_api = "responses"
+env_key = "OPENAI_API_KEY"

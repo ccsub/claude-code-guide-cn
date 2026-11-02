@@ -1,0 +1,17 @@
+// Zed 的 settings.json 里加入 language_models 这一段（已有其他设置的话合并进去）
+{
+  "language_models": {
+    "anthropic_compatible": {
+      "ccsub": {
+        "api_url": "https://www.ccsub.net",
+        "available_models": [
+          {
+            "name": "claude-sonnet-5",
+            "display_name": "claude-sonnet-5 (CCSub)",
+            "max_tokens": 200000
+          }
+        ]
+      }
+    }
+  }
+}

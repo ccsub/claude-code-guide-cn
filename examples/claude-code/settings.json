@@ -1,0 +1,6 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://www.ccsub.net",
+    "ANTHROPIC_AUTH_TOKEN": "sk-你的密钥"
+  }
+}

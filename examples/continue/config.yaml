@@ -1,0 +1,11 @@
+# 放在 ~/.continue/config.yaml；CCSUB_API_KEY 在 Continue 的 secrets 里设置
+name: CCSub
+version: 1.0.0
+schema: v1
+models:
+  - name: CCSub Claude
+    provider: anthropic
+    model: claude-sonnet-5
+    apiBase: https://www.ccsub.net/api/v1
+    apiKey: ${{ secrets.CCSUB_API_KEY }}
+    roles: [chat, edit, apply]
